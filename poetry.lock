@@ -124,6 +124,14 @@ checkqa-mypy = ["mypy (==v0.761)"]
 testing = ["argcomplete", "hypothesis (>=3.56)", "mock", "nose", "requests", "xmlschema"]
 
 [[package]]
+name = "pytz"
+version = "2021.1"
+description = "World timezone definitions, modern and historical"
+category = "main"
+optional = false
+python-versions = "*"
+
+[[package]]
 name = "sgp4"
 version = "2.19"
 description = "Track Earth satellites given TLE data, using up-to-date 2020 SGP4 routines."
@@ -156,7 +164,7 @@ python-versions = "*"
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.8"
-content-hash = "4ce2f4514a1e515ab44f4e6f6202ef1b38db9436cdddef5563bd383c9f26e5dd"
+content-hash = "172bbc7e25d630bd0bd9dc01db2272a01a7c93cacaa27ff0105cb527a9f77129"
 
 [metadata.files]
 atomicwrites = [
@@ -227,6 +235,10 @@ pyparsing = [
 pytest = [
     {file = "pytest-5.4.3-py3-none-any.whl", hash = "sha256:5c0db86b698e8f170ba4582a492248919255fcd4c79b1ee64ace34301fb589a1"},
     {file = "pytest-5.4.3.tar.gz", hash = "sha256:7979331bfcba207414f5e1263b5a0f8f521d0f457318836a7355531ed1a4c7d8"},
+]
+pytz = [
+    {file = "pytz-2021.1-py2.py3-none-any.whl", hash = "sha256:eb10ce3e7736052ed3623d49975ce333bcd712c7bb19a58b9e2089d4057d0798"},
+    {file = "pytz-2021.1.tar.gz", hash = "sha256:83a4a90894bf38e243cf052c8b58f381bfe9a7a483f6a9cab140bc7f702ac4da"},
 ]
 sgp4 = [
     {file = "sgp4-2.19-cp36-cp36m-macosx_10_6_intel.whl", hash = "sha256:c9b7a85e3ce83908247ca6e5633d37543973562cbed2f076d667874f0c7396d9"},

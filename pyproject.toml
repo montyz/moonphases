@@ -7,6 +7,7 @@ authors = ["montyz <monty@codetransform.com>"]
 [tool.poetry.dependencies]
 python = "^3.8"
 skyfield = "^1.39"
+pytz = "^2021.1"
 
 [tool.poetry.dev-dependencies]
 pytest = "^5.2"
